@@ -6,9 +6,13 @@ async function main() {
     let temp = document.getElementById("temp");
     let humidity = document.getElementById("humidity")
     let windDiv = document.getElementById("wind");
-    
+    let weatherIcon = document.getElementById("weatherImg");
+
+    console.log(jsonData.weather[0]["icon"])
+    weatherIcon.src = "https://openweathermap.org/img/wn/" + jsonData.weather[0]["icon"] + "@2x.png"
     temp.innerHTML = "<div>" + (parseInt(parseFloat(jsonData.main.temp) - 273.15)).toString() + "℃" + "</div>";
     humidity.innerHTML = "<div>" + jsonData.main.humidity + "%" + "</div>";
     windDiv.innerHTML = "<div>" + jsonData.wind.speed + "m/s" + "</div>";
+
 }
 main();

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: font;
+    src: url("./font.ttf");
+}
+#body_ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+
+#weatherImg {
+    height: 50vh;
+    width: 50vh;
+}
+
+.weather {
+    font-family: "font";
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.text {
+    font-family: "font";
+    font-size: 50px;
+    /* margin-bottom: 10px; // 여기가 아니지ㅣ;;;*/
+}
