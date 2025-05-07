@@ -34,4 +34,4 @@ setInterval(function() {
         state = 0;
         text.style.color="#0000FF";
     }
-}, 25)
+}, 50)
