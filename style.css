@@ -12,12 +12,19 @@
     width: 100vw;
 
 }
-
+/* #header_ {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    width: 100vw;
+    height: 
+} */
 
 
 #weatherImg {
-    height: 50vh;
-    width: 50vh;
+    height: 40vh;
+    width: 40vh;
 }
 
 .weather {
@@ -29,4 +36,9 @@
     font-family: "font";
     font-size: 50px;
     /* margin-bottom: 10px; // 여기가 아니지ㅣ;;;*/
+}
+
+#location {
+    margin-top: 50px;
+    font-size: 100px
 }
